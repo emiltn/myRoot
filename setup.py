@@ -4,6 +4,9 @@ from six import iteritems
 from setuptools import setup
 from setuptools.command.develop import develop
 from setuptools.command.install import install
+
+#REFERENCE: https://medium.com/@jherreras/python-microlibs-5be9461ad979
+
 PACKAGE_NAME = 'macrolib'
 SOURCES = {
   'macrolib.foo': 'microlibs/foo',
