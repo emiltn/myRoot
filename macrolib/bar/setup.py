@@ -1,5 +1,6 @@
 from setuptools import setup
-microlib_name = 'macrolib.foo'
+
+microlib_name = 'macrolib.bar'
 
 setup(
     name=microlib_name,
@@ -14,9 +15,6 @@ setup(
     namespace_packages=['macrolib'],
     packages=[microlib_name],
     install_requires=[
-        'future',
-        'six',
-        'macrolib.bar',
         # add more packages if needed
     ],
 )
