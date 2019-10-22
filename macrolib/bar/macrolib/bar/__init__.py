@@ -1,4 +1,4 @@
-print("Running: 'bar.__init__'")
+#print("Running: 'bar.__init__'")
 
 
 from . import module1

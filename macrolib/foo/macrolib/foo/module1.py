@@ -1,5 +1,5 @@
 #print("Importing: foo.module1")
-import numpy
+import numpy as np
 import macrolib.bar
 
 class MainClass(object):
