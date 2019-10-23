@@ -1,5 +1,6 @@
 #print("Importing: bar.module1")
 #ADDING A COMMENT TO TEST GIT COMMIT UPDATE
+#ADDING A COMMENT TO TEST GIT COMMIT UPDATE VERSION 2
 
 def multiply(o, value):
     o.x *= value
