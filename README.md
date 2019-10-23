@@ -9,7 +9,7 @@ Next, configue git to use sparse-checkout:\
 git config core.sparsecheckout true
 
 Next, add or chance ".git/info/sparse-checkout" file to include files and folders to pull.\
-This can be done from terminal or changed directly in the file using a text editor.\
+This can be done from terminal or changed directly in the file using a text editor (or nano with mac-terminal).\
 From the terminal:\
 Mandatory files for full functionality:\
 echo /.gitignore >> .git/info/sparse-checkout\
